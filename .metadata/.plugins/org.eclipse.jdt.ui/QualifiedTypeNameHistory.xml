@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.spring.batch.repo.FeederDetailsRepo"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.batch.JobLauncherApplicationRunner"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.ApplicationArguments"/>
+    <fullyQualifiedTypeName name="org.springframework.batch.core.launch.JobLauncher"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.batch.core.JobExecution"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+    <fullyQualifiedTypeName name="org.springframework.web.multipart.MultipartFile"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
+    <fullyQualifiedTypeName name="org.springframework.batch.item.ExecutionContext"/>
+    <fullyQualifiedTypeName name="org.springframework.batch.item.ItemStreamException"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+</qualifiedTypeNameHistroy>

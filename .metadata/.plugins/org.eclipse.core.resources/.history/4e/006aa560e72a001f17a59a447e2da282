@@ -1,0 +1,86 @@
+package com.spring.batch.config;
+
+import java.io.IOException;
+import java.util.List;
+
+import org.springframework.batch.core.Job;
+import org.springframework.batch.core.Step;
+import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
+import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;
+import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
+
+import org.springframework.batch.core.launch.support.RunIdIncrementer;
+import org.springframework.batch.item.ItemProcessor;
+import org.springframework.batch.item.ItemReader;
+import org.springframework.batch.item.ItemWriter;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.spring.batch.entity.FeederDetails;
+import com.spring.batch.repo.FeederDetailsRepo;
+
+@Configuration
+@EnableBatchProcessing
+public class BatchConfig {
+	
+    @Autowired
+    private JobBuilderFactory jobBuilderFactory;
+
+    @Autowired
+    private StepBuilderFactory stepBuilderFactory;
+
+    @Autowired
+    private FeederDetailsRepo fdrDetailsRepo;
+
+    @Bean
+    public Job importJob() {
+        return jobBuilderFactory.get("importJob")
+                .incrementer(new RunIdIncrementer())
+                .flow(importStep())
+                .end()
+                .build();
+    }
+
+    @Bean
+    public Step importStep() {
+        return stepBuilderFactory.get("importStep")
+                .<FeederDetails, FeederDetails>chunk(10)
+                .reader(excelItemReader())
+                .processor(processor())
+                .writer(writer())
+                .build();
+    }
+
+    @Bean
+    public ItemReader<FeederDetails> excelItemReader() {
+        try {
+            return new ExcelItemReader("src/main/resources/feeder_detail.xlsx");
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    @Bean
+    public ItemProcessor<FeederDetails, FeederDetails> processor() {
+        return new ItemProcessor<FeederDetails, FeederDetails>() {
+            @Override
+            public FeederDetails process(FeederDetails fdrDetails) throws Exception {
+                // Add any processing logic here
+                return fdrDetails;
+            }
+        };
+    }
+
+    @Bean
+    public ItemWriter<FeederDetails> writer() {
+        return new ItemWriter<FeederDetails>() {
+            @Override
+            public void write(List<? extends FeederDetails> fdrDetails) throws Exception {
+            	fdrDetailsRepo.saveAll(fdrDetails);
+            }
+        };
+    }
+}
+
