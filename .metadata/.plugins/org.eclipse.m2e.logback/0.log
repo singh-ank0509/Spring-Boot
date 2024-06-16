@@ -1480,3 +1480,594 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact io.netty:nett
 2024-06-15 22:53:43,859 [Worker-0: Launching Executing clean in D__Spring Boot_microservices-eureka-server] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\com.google.guava.failureaccess_1.0.2.jar
 2024-06-15 22:53:43,862 [Worker-0: Launching Executing clean in D__Spring Boot_microservices-eureka-server] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\Spring Boot\microservices-eureka-server":
 2024-06-15 22:53:43,862 [Worker-0: Launching Executing clean in D__Spring Boot_microservices-eureka-server] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always clean
+2024-06-15 23:09:26,455 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ankur:welcome-api:1.0 @ D:\Spring Boot\welcome-api\pom.xml.
+2024-06-15 23:09:27,372 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/de/codecentric/spring-boot-admin-starter-client/3.3.2/spring-boot-admin-starter-client-3.3.2.pom
+2024-06-15 23:09:27,402 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/de/codecentric/spring-boot-admin-starter-client/3.3.2/spring-boot-admin-starter-client-3.3.2.pom
+2024-06-15 23:09:27,566 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/de/codecentric/spring-boot-admin-client/3.3.2/spring-boot-admin-client-3.3.2.pom
+2024-06-15 23:09:27,574 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/de/codecentric/spring-boot-admin-client/3.3.2/spring-boot-admin-client-3.3.2.pom
+2024-06-15 23:09:27,688 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bridge-brave/1.3.0/micrometer-tracing-bridge-brave-1.3.0.pom
+2024-06-15 23:09:27,756 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bridge-brave/1.3.0/micrometer-tracing-bridge-brave-1.3.0.pom
+2024-06-15 23:09:27,943 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing/1.3.0/micrometer-tracing-1.3.0.pom
+2024-06-15 23:09:27,953 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing/1.3.0/micrometer-tracing-1.3.0.pom
+2024-06-15 23:09:28,048 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/context-propagation/1.1.1/context-propagation-1.1.1.pom
+2024-06-15 23:09:28,074 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/context-propagation/1.1.1/context-propagation-1.1.1.pom
+2024-06-15 23:09:28,191 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/6.0.3/brave-6.0.3.pom
+2024-06-15 23:09:28,262 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/6.0.3/brave-6.0.3.pom
+2024-06-15 23:09:28,497 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-parent/6.0.3/brave-parent-6.0.3.pom
+2024-06-15 23:09:28,567 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-parent/6.0.3/brave-parent-6.0.3.pom
+2024-06-15 23:09:28,703 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-slf4j/6.0.3/brave-context-slf4j-6.0.3.pom
+2024-06-15 23:09:28,708 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-slf4j/6.0.3/brave-context-slf4j-6.0.3.pom
+2024-06-15 23:09:28,805 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-parent/6.0.3/brave-context-parent-6.0.3.pom
+2024-06-15 23:09:28,810 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-parent/6.0.3/brave-context-parent-6.0.3.pom
+2024-06-15 23:09:28,909 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/6.0.3/brave-instrumentation-http-6.0.3.pom
+2024-06-15 23:09:28,980 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/6.0.3/brave-instrumentation-http-6.0.3.pom
+2024-06-15 23:09:29,114 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-parent/6.0.3/brave-instrumentation-parent-6.0.3.pom
+2024-06-15 23:09:29,131 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-parent/6.0.3/brave-instrumentation-parent-6.0.3.pom
+2024-06-15 23:09:29,214 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/aws/brave-propagation-aws/1.2.4/brave-propagation-aws-1.2.4.pom
+2024-06-15 23:09:29,221 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/aws/brave-propagation-aws/1.2.4/brave-propagation-aws-1.2.4.pom
+2024-06-15 23:09:29,317 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/aws/zipkin-aws-parent/1.2.4/zipkin-aws-parent-1.2.4.pom
+2024-06-15 23:09:29,388 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/aws/zipkin-aws-parent/1.2.4/zipkin-aws-parent-1.2.4.pom
+2024-06-15 23:09:29,521 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/contrib/brave-propagation-w3c/brave-propagation-tracecontext/0.2.0/brave-propagation-tracecontext-0.2.0.pom
+2024-06-15 23:09:29,535 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/contrib/brave-propagation-w3c/brave-propagation-tracecontext/0.2.0/brave-propagation-tracecontext-0.2.0.pom
+2024-06-15 23:09:29,688 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/contrib/brave-propagation-w3c/brave-propagation-w3c-parent/0.2.0/brave-propagation-w3c-parent-0.2.0.pom
+2024-06-15 23:09:29,713 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/contrib/brave-propagation-w3c/brave-propagation-w3c-parent/0.2.0/brave-propagation-w3c-parent-0.2.0.pom
+2024-06-15 23:09:29,829 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/3.4.0/zipkin-reporter-brave-3.4.0.pom
+2024-06-15 23:09:29,903 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/3.4.0/zipkin-reporter-brave-3.4.0.pom
+2024-06-15 23:09:30,034 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-parent/3.4.0/zipkin-reporter-parent-3.4.0.pom
+2024-06-15 23:09:30,114 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-parent/3.4.0/zipkin-reporter-parent-3.4.0.pom
+2024-06-15 23:09:30,421 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/3.4.0/zipkin-reporter-3.4.0.pom
+2024-06-15 23:09:30,427 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/3.4.0/zipkin-reporter-3.4.0.pom
+2024-06-15 23:09:30,557 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/4.1.2/spring-cloud-starter-netflix-eureka-client-4.1.2.pom
+2024-06-15 23:09:30,696 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/4.1.2/spring-cloud-starter-netflix-eureka-client-4.1.2.pom
+2024-06-15 23:09:32,865 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/de/codecentric/spring-boot-admin-starter-client/3.3.2/spring-boot-admin-starter-client-3.3.2.jar
+2024-06-15 23:09:32,880 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/de/codecentric/spring-boot-admin-starter-client/3.3.2/spring-boot-admin-starter-client-3.3.2.jar
+2024-06-15 23:09:32,964 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/de/codecentric/spring-boot-admin-client/3.3.2/spring-boot-admin-client-3.3.2.jar
+2024-06-15 23:09:32,991 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/de/codecentric/spring-boot-admin-client/3.3.2/spring-boot-admin-client-3.3.2.jar
+2024-06-15 23:09:33,068 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-slf4j/6.0.3/brave-context-slf4j-6.0.3.jar
+2024-06-15 23:09:33,086 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-slf4j/6.0.3/brave-context-slf4j-6.0.3.jar
+2024-06-15 23:09:33,166 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing/1.3.0/micrometer-tracing-1.3.0.jar
+2024-06-15 23:09:33,171 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/6.0.3/brave-6.0.3.jar
+2024-06-15 23:09:33,173 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/context-propagation/1.1.1/context-propagation-1.1.1.jar
+2024-06-15 23:09:33,190 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bridge-brave/1.3.0/micrometer-tracing-bridge-brave-1.3.0.jar
+2024-06-15 23:09:33,474 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/6.0.3/brave-instrumentation-http-6.0.3.jar
+2024-06-15 23:09:33,582 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing/1.3.0/micrometer-tracing-1.3.0.jar
+2024-06-15 23:09:33,679 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/aws/brave-propagation-aws/1.2.4/brave-propagation-aws-1.2.4.jar
+2024-06-15 23:09:33,703 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/aws/brave-propagation-aws/1.2.4/brave-propagation-aws-1.2.4.jar
+2024-06-15 23:09:33,783 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/contrib/brave-propagation-w3c/brave-propagation-tracecontext/0.2.0/brave-propagation-tracecontext-0.2.0.jar
+2024-06-15 23:09:33,786 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/6.0.3/brave-instrumentation-http-6.0.3.jar
+2024-06-15 23:09:33,789 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bridge-brave/1.3.0/micrometer-tracing-bridge-brave-1.3.0.jar
+2024-06-15 23:09:33,901 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/3.4.0/zipkin-reporter-brave-3.4.0.jar
+2024-06-15 23:09:33,901 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/3.4.0/zipkin-reporter-3.4.0.jar
+2024-06-15 23:09:33,993 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/context-propagation/1.1.1/context-propagation-1.1.1.jar
+2024-06-15 23:09:34,090 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/4.1.2/spring-cloud-starter-netflix-eureka-client-4.1.2.jar
+2024-06-15 23:09:34,097 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/3.4.0/zipkin-reporter-3.4.0.jar
+2024-06-15 23:09:34,098 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/4.1.2/spring-cloud-starter-netflix-eureka-client-4.1.2.jar
+2024-06-15 23:09:34,195 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar
+2024-06-15 23:09:34,197 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/contrib/brave-propagation-w3c/brave-propagation-tracecontext/0.2.0/brave-propagation-tracecontext-0.2.0.jar
+2024-06-15 23:09:34,223 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.2.1/woodstox-core-6.2.1.jar
+2024-06-15 23:09:34,224 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/6.0.3/brave-6.0.3.jar
+2024-06-15 23:09:34,299 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/3.4.0/zipkin-reporter-brave-3.4.0.jar
+2024-06-15 23:09:35,552 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar
+2024-06-15 23:09:41,889 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.2.1/woodstox-core-6.2.1.jar
+2024-06-15 23:09:44,939 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /welcome-api/src/main/java
+2024-06-15 23:09:44,940 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /welcome-api/src/main/resources
+2024-06-15 23:09:44,962 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /welcome-api/src/main/resources
+2024-06-15 23:09:44,968 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /welcome-api/src/test/java
+2024-06-15 23:09:44,969 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /welcome-api/src/test/resources
+2024-06-15 23:09:45,967 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/de/codecentric/spring-boot-admin-starter-client/3.3.2/spring-boot-admin-starter-client-3.3.2-sources.jar
+2024-06-15 23:09:45,992 [Worker-15: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for de.codecentric:spring-boot-admin-starter-client:3.3.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact de.codecentric:spring-boot-admin-starter-client:jar:sources:3.3.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:584)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:228)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:553)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:538)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-06-15 23:09:46,273 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/de/codecentric/spring-boot-admin-client/3.3.2/spring-boot-admin-client-3.3.2-sources.jar
+2024-06-15 23:09:46,392 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/de/codecentric/spring-boot-admin-client/3.3.2/spring-boot-admin-client-3.3.2-sources.jar
+2024-06-15 23:09:46,396 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for de.codecentric:spring-boot-admin-client:3.3.2
+2024-06-15 23:09:46,687 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bridge-brave/1.3.0/micrometer-tracing-bridge-brave-1.3.0-sources.jar
+2024-06-15 23:09:46,730 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bridge-brave/1.3.0/micrometer-tracing-bridge-brave-1.3.0-sources.jar
+2024-06-15 23:09:46,737 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:micrometer-tracing-bridge-brave:1.3.0
+2024-06-15 23:09:47,046 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing/1.3.0/micrometer-tracing-1.3.0-sources.jar
+2024-06-15 23:09:47,217 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing/1.3.0/micrometer-tracing-1.3.0-sources.jar
+2024-06-15 23:09:47,229 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:micrometer-tracing:1.3.0
+2024-06-15 23:09:47,836 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/context-propagation/1.1.1/context-propagation-1.1.1-sources.jar
+2024-06-15 23:09:47,859 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/context-propagation/1.1.1/context-propagation-1.1.1-sources.jar
+2024-06-15 23:09:47,869 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:context-propagation:1.1.1
+2024-06-15 23:09:48,168 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar
+2024-06-15 23:09:48,224 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar
+2024-06-15 23:09:48,230 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for aopalliance:aopalliance:1.0
+2024-06-15 23:09:48,802 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/6.0.3/brave-6.0.3-sources.jar
+2024-06-15 23:09:48,815 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/6.0.3/brave-6.0.3-sources.jar
+2024-06-15 23:09:48,820 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave:6.0.3
+2024-06-15 23:09:49,081 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-slf4j/6.0.3/brave-context-slf4j-6.0.3-sources.jar
+2024-06-15 23:09:49,087 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-slf4j/6.0.3/brave-context-slf4j-6.0.3-sources.jar
+2024-06-15 23:09:49,092 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-context-slf4j:6.0.3
+2024-06-15 23:09:49,388 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/6.0.3/brave-instrumentation-http-6.0.3-sources.jar
+2024-06-15 23:09:49,455 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/6.0.3/brave-instrumentation-http-6.0.3-sources.jar
+2024-06-15 23:09:49,462 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-http:6.0.3
+2024-06-15 23:09:49,756 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/aws/brave-propagation-aws/1.2.4/brave-propagation-aws-1.2.4-sources.jar
+2024-06-15 23:09:49,781 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/aws/brave-propagation-aws/1.2.4/brave-propagation-aws-1.2.4-sources.jar
+2024-06-15 23:09:49,787 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.aws:brave-propagation-aws:1.2.4
+2024-06-15 23:09:50,178 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 25 sec
+2024-06-15 23:09:50,182 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-06-15 23:09:50,239 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/contrib/brave-propagation-w3c/brave-propagation-tracecontext/0.2.0/brave-propagation-tracecontext-0.2.0-sources.jar
+2024-06-15 23:09:50,270 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/contrib/brave-propagation-w3c/brave-propagation-tracecontext/0.2.0/brave-propagation-tracecontext-0.2.0-sources.jar
+2024-06-15 23:09:50,337 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.contrib.brave-propagation-w3c:brave-propagation-tracecontext:0.2.0
+2024-06-15 23:09:52,465 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ankur:welcome-api:1.0 @ D:\Spring Boot\welcome-api\pom.xml.
+2024-06-15 23:09:52,624 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/3.4.0/zipkin-reporter-brave-3.4.0-sources.jar
+2024-06-15 23:09:52,632 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/3.4.0/zipkin-reporter-brave-3.4.0-sources.jar
+2024-06-15 23:09:52,638 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.reporter2:zipkin-reporter-brave:3.4.0
+2024-06-15 23:09:52,942 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/3.4.0/zipkin-reporter-3.4.0-sources.jar
+2024-06-15 23:09:53,037 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/3.4.0/zipkin-reporter-3.4.0-sources.jar
+2024-06-15 23:09:53,043 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.reporter2:zipkin-reporter:3.4.0
+2024-06-15 23:09:53,576 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/4.1.2/spring-cloud-starter-netflix-eureka-client-4.1.2-sources.jar
+2024-06-15 23:09:53,587 [Worker-15: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:4.1.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:sources:4.1.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:584)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:228)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:553)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:538)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-06-15 23:09:53,894 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.2.1/woodstox-core-6.2.1-sources.jar
+2024-06-15 23:09:54,152 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /welcome-api/src/main/java
+2024-06-15 23:09:54,152 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /welcome-api/src/main/resources
+2024-06-15 23:09:54,154 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /welcome-api/src/main/resources
+2024-06-15 23:09:54,160 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /welcome-api/src/test/java
+2024-06-15 23:09:54,160 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /welcome-api/src/test/resources
+2024-06-15 23:09:54,677 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.2.1/woodstox-core-6.2.1-sources.jar
+2024-06-15 23:09:54,684 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.woodstox:woodstox-core:6.2.1
+2024-06-15 23:09:55,002 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1-sources.jar
+2024-06-15 23:09:55,151 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 3.00 sec, update config takes 0.00 sec 
+2024-06-15 23:09:55,413 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1-sources.jar
+2024-06-15 23:09:55,418 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.codehaus.woodstox:stax2-api:4.2.1
+2024-06-15 23:09:56,861 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-15 23:09:56,881 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-15 23:09:56,887 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\welcome-api\src\test\resources
+2024-06-15 23:19:40,752 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-15 23:19:40,774 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-15 23:19:40,778 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\welcome-api\src\test\resources
+2024-06-15 23:20:16,912 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-15 23:20:16,929 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-15 23:20:16,933 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\welcome-api\src\test\resources
+2024-06-15 23:21:54,081 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-15 23:21:54,095 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-15 23:21:54,098 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\welcome-api\src\test\resources
+2024-06-15 23:22:17,477 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-15 23:22:17,489 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-15 23:22:17,503 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\welcome-api\src\test\resources
+2024-06-15 23:22:34,152 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-06-15 23:22:34,721 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ankur:welcome-api:1.0 @ D:\Spring Boot\welcome-api\pom.xml.
+2024-06-15 23:22:36,024 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /welcome-api/src/main/java
+2024-06-15 23:22:36,024 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /welcome-api/src/main/resources
+2024-06-15 23:22:36,025 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /welcome-api/src/main/resources
+2024-06-15 23:22:36,026 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /welcome-api/src/test/java
+2024-06-15 23:22:36,026 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /welcome-api/src/test/resources
+2024-06-15 23:22:36,572 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2024-06-15 23:22:36,963 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-15 23:22:36,986 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-15 23:22:36,992 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\welcome-api\src\test\resources
+2024-06-15 23:22:37,353 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/de/codecentric/spring-boot-admin-starter-client/3.3.2/spring-boot-admin-starter-client-3.3.2-javadoc.jar
+2024-06-15 23:22:37,359 [Worker-21: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for de.codecentric:spring-boot-admin-starter-client:3.3.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact de.codecentric:spring-boot-admin-starter-client:jar:javadoc:3.3.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:584)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:228)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:553)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:538)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-06-15 23:22:37,875 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/4.1.2/spring-cloud-starter-netflix-eureka-client-4.1.2-javadoc.jar
+2024-06-15 23:22:37,878 [Worker-21: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:4.1.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:javadoc:4.1.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:584)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:228)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:553)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:538)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-06-15 23:24:19,903 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-15 23:24:19,908 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-15 23:24:19,911 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\welcome-api\src\test\resources
+2024-06-15 23:24:47,747 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-06-15 23:24:48,713 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ankur:microservices-admin-server:1.0 @ D:\Spring Boot\microservices-admin-server\pom.xml.
+2024-06-15 23:24:49,682 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ankur:microservices-eureka-server:1.0 @ D:\Spring Boot\microservices-eureka-server\pom.xml.
+2024-06-15 23:24:51,667 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservices-admin-server/src/main/java
+2024-06-15 23:24:51,667 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservices-admin-server/src/main/resources
+2024-06-15 23:24:51,668 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservices-admin-server/src/main/resources
+2024-06-15 23:24:51,668 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservices-admin-server/src/test/java
+2024-06-15 23:24:51,668 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservices-admin-server/src/test/resources
+2024-06-15 23:24:52,301 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservices-eureka-server/src/main/java
+2024-06-15 23:24:52,301 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservices-eureka-server/src/main/resources
+2024-06-15 23:24:52,301 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservices-eureka-server/src/main/resources
+2024-06-15 23:24:52,302 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservices-eureka-server/src/test/java
+2024-06-15 23:24:52,302 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservices-eureka-server/src/test/resources
+2024-06-15 23:24:53,005 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 2 poms: local refresh takes 0.00 sec, refresh facades takes 3.00 sec, update config takes 1.00 sec 
+2024-06-15 23:24:53,300 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-15 23:24:53,319 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-15 23:24:53,323 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\microservices-admin-server\src\test\resources
+2024-06-15 23:24:53,549 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-15 23:24:53,571 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-15 23:24:53,576 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\microservices-eureka-server\src\test\resources
+2024-06-15 23:26:42,878 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-15 23:26:42,884 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-15 23:26:42,888 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\welcome-api\src\test\resources
+2024-06-15 23:38:19,385 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ankur:greet-api:1.0 @ D:\Spring Boot\greet-api\pom.xml.
+2024-06-15 23:38:20,364 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-openfeign/4.1.2/spring-cloud-starter-openfeign-4.1.2.pom
+2024-06-15 23:38:20,379 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-openfeign/4.1.2/spring-cloud-starter-openfeign-4.1.2.pom
+2024-06-15 23:38:20,503 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign/4.1.2/spring-cloud-openfeign-4.1.2.pom
+2024-06-15 23:38:20,511 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign/4.1.2/spring-cloud-openfeign-4.1.2.pom
+2024-06-15 23:38:20,608 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-core/4.1.2/spring-cloud-openfeign-core-4.1.2.pom
+2024-06-15 23:38:20,690 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-core/4.1.2/spring-cloud-openfeign-core-4.1.2.pom
+2024-06-15 23:38:20,812 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/form/feign-form-spring/3.8.0/feign-form-spring-3.8.0.pom
+2024-06-15 23:38:20,887 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/form/feign-form-spring/3.8.0/feign-form-spring-3.8.0.pom
+2024-06-15 23:38:21,020 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/form/parent/3.8.0/parent-3.8.0.pom
+2024-06-15 23:38:21,086 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/form/parent/3.8.0/parent-3.8.0.pom
+2024-06-15 23:38:21,223 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/form/feign-form/3.8.0/feign-form-3.8.0.pom
+2024-06-15 23:38:21,231 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/form/feign-form/3.8.0/feign-form-3.8.0.pom
+2024-06-15 23:38:21,389 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.pom
+2024-06-15 23:38:21,429 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.pom
+2024-06-15 23:38:21,903 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-core/13.2.1/feign-core-13.2.1.pom
+2024-06-15 23:38:21,913 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-core/13.2.1/feign-core-13.2.1.pom
+2024-06-15 23:38:22,001 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/parent/13.2.1/parent-13.2.1.pom
+2024-06-15 23:38:22,015 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/parent/13.2.1/parent-13.2.1.pom
+2024-06-15 23:38:22,144 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-slf4j/13.2.1/feign-slf4j-13.2.1.pom
+2024-06-15 23:38:22,148 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-slf4j/13.2.1/feign-slf4j-13.2.1.pom
+2024-06-15 23:38:22,512 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-openfeign/4.1.2/spring-cloud-starter-openfeign-4.1.2.jar
+2024-06-15 23:38:22,520 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-openfeign/4.1.2/spring-cloud-starter-openfeign-4.1.2.jar
+2024-06-15 23:38:22,615 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-core/4.1.2/spring-cloud-openfeign-core-4.1.2.jar
+2024-06-15 23:38:22,783 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/form/feign-form-spring/3.8.0/feign-form-spring-3.8.0.jar
+2024-06-15 23:38:22,783 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-core/13.2.1/feign-core-13.2.1.jar
+2024-06-15 23:38:22,819 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/form/feign-form/3.8.0/feign-form-3.8.0.jar
+2024-06-15 23:38:22,819 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.jar
+2024-06-15 23:38:22,841 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/form/feign-form-spring/3.8.0/feign-form-spring-3.8.0.jar
+2024-06-15 23:38:22,924 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-slf4j/13.2.1/feign-slf4j-13.2.1.jar
+2024-06-15 23:38:22,929 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-slf4j/13.2.1/feign-slf4j-13.2.1.jar
+2024-06-15 23:38:23,352 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-core/4.1.2/spring-cloud-openfeign-core-4.1.2.jar
+2024-06-15 23:38:23,484 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.jar
+2024-06-15 23:38:23,554 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/form/feign-form/3.8.0/feign-form-3.8.0.jar
+2024-06-15 23:38:23,769 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-core/13.2.1/feign-core-13.2.1.jar
+2024-06-15 23:38:24,186 [Worker-25: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /greet-api/src/main/java
+2024-06-15 23:38:24,186 [Worker-25: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /greet-api/src/main/resources
+2024-06-15 23:38:24,222 [Worker-25: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /greet-api/src/main/resources
+2024-06-15 23:38:24,226 [Worker-25: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /greet-api/src/test/java
+2024-06-15 23:38:24,226 [Worker-25: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /greet-api/src/test/resources
+2024-06-15 23:38:24,930 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2024-06-15 23:38:24,933 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-06-15 23:38:26,764 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ankur:greet-api:1.0 @ D:\Spring Boot\greet-api\pom.xml.
+2024-06-15 23:38:27,062 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-openfeign/4.1.2/spring-cloud-starter-openfeign-4.1.2-sources.jar
+2024-06-15 23:38:27,081 [Worker-33: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-openfeign:4.1.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-openfeign:jar:sources:4.1.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:584)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:228)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:553)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:538)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-06-15 23:38:27,371 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-core/4.1.2/spring-cloud-openfeign-core-4.1.2-sources.jar
+2024-06-15 23:38:27,580 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-openfeign-core/4.1.2/spring-cloud-openfeign-core-4.1.2-sources.jar
+2024-06-15 23:38:27,585 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-openfeign-core:4.1.2
+2024-06-15 23:38:27,892 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/form/feign-form-spring/3.8.0/feign-form-spring-3.8.0-sources.jar
+2024-06-15 23:38:27,958 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/form/feign-form-spring/3.8.0/feign-form-spring-3.8.0-sources.jar
+2024-06-15 23:38:27,963 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.openfeign.form:feign-form-spring:3.8.0
+2024-06-15 23:38:28,247 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/form/feign-form/3.8.0/feign-form-3.8.0-sources.jar
+2024-06-15 23:38:28,259 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/form/feign-form/3.8.0/feign-form-3.8.0-sources.jar
+2024-06-15 23:38:28,264 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.openfeign.form:feign-form:3.8.0
+2024-06-15 23:38:28,315 [Worker-25: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /greet-api/src/main/java
+2024-06-15 23:38:28,315 [Worker-25: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /greet-api/src/main/resources
+2024-06-15 23:38:28,315 [Worker-25: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /greet-api/src/main/resources
+2024-06-15 23:38:28,316 [Worker-25: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /greet-api/src/test/java
+2024-06-15 23:38:28,316 [Worker-25: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /greet-api/src/test/resources
+2024-06-15 23:38:28,553 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5-sources.jar
+2024-06-15 23:38:28,673 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5-sources.jar
+2024-06-15 23:38:28,694 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-fileupload:commons-fileupload:1.5
+2024-06-15 23:38:29,008 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-core/13.2.1/feign-core-13.2.1-sources.jar
+2024-06-15 23:38:29,087 [Worker-25: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 3.00 sec, update config takes 0.00 sec 
+2024-06-15 23:38:29,643 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-15 23:38:29,662 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-15 23:38:29,666 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\greet-api\src\test\resources
+2024-06-15 23:38:30,002 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-core/13.2.1/feign-core-13.2.1-sources.jar
+2024-06-15 23:38:30,008 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.openfeign:feign-core:13.2.1
+2024-06-15 23:38:30,304 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/openfeign/feign-slf4j/13.2.1/feign-slf4j-13.2.1-sources.jar
+2024-06-15 23:38:30,309 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/openfeign/feign-slf4j/13.2.1/feign-slf4j-13.2.1-sources.jar
+2024-06-15 23:38:30,328 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.github.openfeign:feign-slf4j:13.2.1
+2024-06-15 23:39:12,525 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-15 23:39:12,529 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-15 23:39:12,531 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\greet-api\src\test\resources
+2024-06-15 23:39:27,903 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-15 23:39:27,908 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-15 23:39:27,911 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\greet-api\src\test\resources
+2024-06-15 23:41:08,605 [Worker-34: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-openfeign/4.1.2/spring-cloud-starter-openfeign-4.1.2-javadoc.jar
+2024-06-15 23:41:08,608 [Worker-34: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-openfeign:4.1.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-openfeign:jar:javadoc:4.1.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:584)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:228)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:553)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:538)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-06-15 23:45:16,173 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-15 23:45:16,182 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-15 23:45:16,194 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\greet-api\src\test\resources
+2024-06-15 23:46:44,985 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-15 23:46:44,993 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-15 23:46:44,997 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\greet-api\src\test\resources
+2024-06-16 12:24:40,645 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-16 13:40:54,019 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-16 13:44:19,224 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-16 13:44:19,267 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 13:44:19,279 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\greet-api\src\test\resources
+2024-06-16 13:44:27,720 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-16 13:44:27,752 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 13:44:27,759 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\microservices-admin-server\src\test\resources
+2024-06-16 13:44:33,963 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-16 13:44:33,992 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 13:44:33,999 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\microservices-eureka-server\src\test\resources
+2024-06-16 13:44:51,520 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-16 13:44:51,520 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-06-16 13:44:51,521 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-16 13:44:51,562 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-16 13:44:51,683 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-16 13:44:51,683 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2024-06-16 13:44:51,684 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Spring Boot\spring-batch-excel-import\src\test\resources
+2024-06-16 13:45:03,317 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-16 13:45:03,344 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 13:45:03,366 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\welcome-api\src\test\resources
+2024-06-16 22:18:10,496 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-06-16 22:25:40,598 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-16 22:25:40,637 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:25:40,647 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\welcome-api\src\test\resources
+2024-06-16 22:25:52,987 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-06-16 22:25:57,438 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ankur:welcome-api:1.0 @ D:\Spring Boot\welcome-api\pom.xml.
+2024-06-16 22:25:59,309 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /welcome-api/src/main/java
+2024-06-16 22:25:59,310 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /welcome-api/src/main/resources
+2024-06-16 22:25:59,310 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /welcome-api/src/main/resources
+2024-06-16 22:25:59,312 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /welcome-api/src/test/java
+2024-06-16 22:25:59,312 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /welcome-api/src/test/resources
+2024-06-16 22:26:00,328 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 6.00 sec, update config takes 0.00 sec 
+2024-06-16 22:26:00,847 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-16 22:26:00,930 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:26:00,937 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\welcome-api\src\test\resources
+2024-06-16 22:27:54,132 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-16 22:27:54,144 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:27:54,149 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\welcome-api\src\test\resources
+2024-06-16 22:28:03,893 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-16 22:28:03,963 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:28:03,970 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\microservices-admin-server\src\test\resources
+2024-06-16 22:28:09,219 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:28:09,220 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:28:09,226 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\microservices-admin-server\src\test\resources
+2024-06-16 22:28:10,319 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:28:10,321 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:28:10,329 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\welcome-api\src\test\resources
+2024-06-16 22:28:32,184 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:28:32,186 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:28:32,194 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\welcome-api\src\test\resources
+2024-06-16 22:36:54,385 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:36:54,387 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:36:54,393 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\welcome-api\src\test\resources
+2024-06-16 22:37:15,709 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:37:15,711 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:37:15,715 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\welcome-api\src\test\resources
+2024-06-16 22:40:24,771 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:40:24,775 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:40:24,784 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\welcome-api\src\test\resources
+2024-06-16 22:40:33,572 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:40:33,575 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:40:33,590 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\welcome-api\src\test\resources
+2024-06-16 22:42:01,111 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-16 22:42:01,395 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:42:01,406 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\greet-api\src\test\resources
+2024-06-16 22:43:16,354 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-16 22:43:16,381 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:43:16,387 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\greet-api\src\test\resources
+2024-06-16 22:43:39,964 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-16 22:43:40,063 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:43:40,069 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\greet-api\src\test\resources
+2024-06-16 22:43:44,635 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-16 22:43:44,646 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:43:44,654 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\greet-api\src\test\resources
+2024-06-16 22:49:01,065 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-16 22:49:01,073 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:49:01,078 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\greet-api\src\test\resources
+2024-06-16 22:49:12,604 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-16 22:49:12,625 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:49:12,630 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\greet-api\src\test\resources
+2024-06-16 22:50:21,291 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-16 22:50:21,298 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:50:21,304 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\greet-api\src\test\resources
+2024-06-16 22:56:11,522 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:56:11,524 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:56:11,528 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\welcome-api\src\test\resources
+2024-06-16 22:56:22,010 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:56:22,012 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-16 22:56:22,017 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring Boot\welcome-api\src\test\resources
+2024-06-16 23:18:15,315 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345 [346])
+2024-06-16 23:18:15,335 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345
+2024-06-16 23:18:15,335 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\aopalliance-1.0.jar
+2024-06-16 23:18:15,336 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\guice-5.1.0.jar
+2024-06-16 23:18:15,336 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\httpclient-4.5.14.jar
+2024-06-16 23:18:15,336 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\httpcore-4.4.16.jar
+2024-06-16 23:18:15,336 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\jansi-2.4.0.jar
+2024-06-16 23:18:15,337 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\jcl-over-slf4j-1.7.36.jar
+2024-06-16 23:18:15,337 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-artifact-3.9.5.jar
+2024-06-16 23:18:15,337 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-builder-support-3.9.5.jar
+2024-06-16 23:18:15,337 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-compat-3.9.5.jar
+2024-06-16 23:18:15,392 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-core-3.9.5.jar
+2024-06-16 23:18:15,392 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-embedder-3.9.5.jar
+2024-06-16 23:18:15,392 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-model-3.9.5.jar
+2024-06-16 23:18:15,393 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-model-builder-3.9.5.jar
+2024-06-16 23:18:15,393 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-plugin-api-3.9.5.jar
+2024-06-16 23:18:15,393 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-repository-metadata-3.9.5.jar
+2024-06-16 23:18:15,393 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-api-1.9.16.jar
+2024-06-16 23:18:15,393 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-connector-basic-1.9.16.jar
+2024-06-16 23:18:15,394 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-impl-1.9.16.jar
+2024-06-16 23:18:15,394 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-named-locks-1.9.16.jar
+2024-06-16 23:18:15,413 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-provider-3.9.5.jar
+2024-06-16 23:18:15,413 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-spi-1.9.16.jar
+2024-06-16 23:18:15,414 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-file-1.9.16.jar
+2024-06-16 23:18:15,414 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-http-1.9.16.jar
+2024-06-16 23:18:15,414 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-wagon-1.9.16.jar
+2024-06-16 23:18:15,414 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-util-1.9.16.jar
+2024-06-16 23:18:15,414 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-settings-3.9.5.jar
+2024-06-16 23:18:15,415 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-settings-builder-3.9.5.jar
+2024-06-16 23:18:15,415 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-shared-utils-3.3.4.jar
+2024-06-16 23:18:15,415 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\org.eclipse.sisu.inject-0.3.5.jar
+2024-06-16 23:18:15,415 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2024-06-16 23:18:15,416 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-build-api-0.0.7.jar
+2024-06-16 23:18:15,416 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-cipher-2.0.jar
+2024-06-16 23:18:15,416 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-classworlds-2.7.0.jar
+2024-06-16 23:18:15,416 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-component-annotations-2.1.0.jar
+2024-06-16 23:18:15,416 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-interpolation-1.26.jar
+2024-06-16 23:18:15,417 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-sec-dispatcher-2.0.jar
+2024-06-16 23:18:15,417 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-utils-3.5.1.jar
+2024-06-16 23:18:15,417 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-file-3.5.3.jar
+2024-06-16 23:18:15,417 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-http-3.5.3.jar
+2024-06-16 23:18:15,417 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-http-shared-3.5.3.jar
+2024-06-16 23:18:15,418 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-provider-api-3.5.3.jar
+2024-06-16 23:18:15,419 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.0.0.jre [25])
+2024-06-16 23:18:15,435 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\com.google.guava_33.0.0.jre.jar
+2024-06-16 23:18:15,435 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.9 [573])
+2024-06-16 23:18:15,436 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\slf4j.api_2.0.9.jar
+2024-06-16 23:18:15,436 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [41])
+2024-06-16 23:18:15,436 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-06-16 23:18:15,437 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [37])
+2024-06-16 23:18:15,437 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\jakarta.annotation-api_1.3.5.jar
+2024-06-16 23:18:15,437 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.6.0 [71])
+2024-06-16 23:18:15,438 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.apache.commons.cli_1.6.0.jar
+2024-06-16 23:18:15,438 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [73])
+2024-06-16 23:18:15,439 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-06-16 23:18:15,439 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.13.0 [77])
+2024-06-16 23:18:15,440 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.apache.commons.lang3_3.13.0.jar
+2024-06-16 23:18:15,440 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [27])
+2024-06-16 23:18:15,441 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-06-16 23:18:15,460 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\Spring Boot\welcome-api":
+2024-06-16 23:18:15,461 [Worker-9: Launching Executing clean in D__Spring Boot_welcome-api] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always clean
+2024-06-16 23:18:32,682 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345 [346])
+2024-06-16 23:18:32,683 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345
+2024-06-16 23:18:32,684 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\aopalliance-1.0.jar
+2024-06-16 23:18:32,684 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\guice-5.1.0.jar
+2024-06-16 23:18:32,684 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\httpclient-4.5.14.jar
+2024-06-16 23:18:32,685 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\httpcore-4.4.16.jar
+2024-06-16 23:18:32,685 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\jansi-2.4.0.jar
+2024-06-16 23:18:32,685 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\jcl-over-slf4j-1.7.36.jar
+2024-06-16 23:18:32,686 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-artifact-3.9.5.jar
+2024-06-16 23:18:32,686 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-builder-support-3.9.5.jar
+2024-06-16 23:18:32,686 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-compat-3.9.5.jar
+2024-06-16 23:18:32,687 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-core-3.9.5.jar
+2024-06-16 23:18:32,687 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-embedder-3.9.5.jar
+2024-06-16 23:18:32,688 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-model-3.9.5.jar
+2024-06-16 23:18:32,689 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-model-builder-3.9.5.jar
+2024-06-16 23:18:32,689 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-plugin-api-3.9.5.jar
+2024-06-16 23:18:32,689 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-repository-metadata-3.9.5.jar
+2024-06-16 23:18:32,690 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-api-1.9.16.jar
+2024-06-16 23:18:32,690 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-connector-basic-1.9.16.jar
+2024-06-16 23:18:32,690 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-impl-1.9.16.jar
+2024-06-16 23:18:32,691 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-named-locks-1.9.16.jar
+2024-06-16 23:18:32,691 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-provider-3.9.5.jar
+2024-06-16 23:18:32,692 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-spi-1.9.16.jar
+2024-06-16 23:18:32,692 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-file-1.9.16.jar
+2024-06-16 23:18:32,693 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-http-1.9.16.jar
+2024-06-16 23:18:32,693 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-transport-wagon-1.9.16.jar
+2024-06-16 23:18:32,693 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-resolver-util-1.9.16.jar
+2024-06-16 23:18:32,694 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-settings-3.9.5.jar
+2024-06-16 23:18:32,694 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-settings-builder-3.9.5.jar
+2024-06-16 23:18:32,694 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\maven-shared-utils-3.3.4.jar
+2024-06-16 23:18:32,695 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\org.eclipse.sisu.inject-0.3.5.jar
+2024-06-16 23:18:32,695 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2024-06-16 23:18:32,695 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-build-api-0.0.7.jar
+2024-06-16 23:18:32,695 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-cipher-2.0.jar
+2024-06-16 23:18:32,696 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-classworlds-2.7.0.jar
+2024-06-16 23:18:32,696 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-component-annotations-2.1.0.jar
+2024-06-16 23:18:32,696 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-interpolation-1.26.jar
+2024-06-16 23:18:32,697 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-sec-dispatcher-2.0.jar
+2024-06-16 23:18:32,697 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\plexus-utils-3.5.1.jar
+2024-06-16 23:18:32,697 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-file-3.5.3.jar
+2024-06-16 23:18:32,698 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-http-3.5.3.jar
+2024-06-16 23:18:32,698 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-http-shared-3.5.3.jar
+2024-06-16 23:18:32,698 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345\jars\wagon-provider-api-3.5.3.jar
+2024-06-16 23:18:32,699 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.0.0.jre [25])
+2024-06-16 23:18:32,699 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\com.google.guava_33.0.0.jre.jar
+2024-06-16 23:18:32,699 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.9 [573])
+2024-06-16 23:18:32,700 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\slf4j.api_2.0.9.jar
+2024-06-16 23:18:32,700 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [41])
+2024-06-16 23:18:32,701 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-06-16 23:18:32,701 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [37])
+2024-06-16 23:18:32,701 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\jakarta.annotation-api_1.3.5.jar
+2024-06-16 23:18:32,701 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.6.0 [71])
+2024-06-16 23:18:32,702 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.apache.commons.cli_1.6.0.jar
+2024-06-16 23:18:32,702 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [73])
+2024-06-16 23:18:32,703 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-06-16 23:18:32,703 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.13.0 [77])
+2024-06-16 23:18:32,703 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\org.apache.commons.lang3_3.13.0.jar
+2024-06-16 23:18:32,703 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [27])
+2024-06-16 23:18:32,704 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\z\Desktop\New folder\sts-4.21.1.RELEASE\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-06-16 23:18:32,707 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\Spring Boot\greet-api":
+2024-06-16 23:18:32,707 [Worker-37: Launching Executing clean in D__Spring Boot_greet-api] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always clean
