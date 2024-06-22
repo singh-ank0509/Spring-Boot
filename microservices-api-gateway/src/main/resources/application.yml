@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: microservices-api-gateway
+  cloud:
+    gateway:
+      routes:
+      - id: WELCOME-API
+        uri: lb://welcome-api
+        predicates:
+        - Path=/api/welcome
+      - id: GREET-API
+        uri: lb://greet-api
+        predicates:
+        - Path=/api/greet
+
+server:
+  port: 3333
