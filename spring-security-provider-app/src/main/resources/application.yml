@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-security-provider-app
+#  security:
+#    user:
+#      name: ankur
+#      password: ankur@0509
+
+server:
+  port: 8081
+     
