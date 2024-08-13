@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Spring Boot\uber-clone-application"/>
 			<item value="D:\Spring Boot\spring-batch-excel-import"/>
 		</list>
 		<list key="projectNameTemplate">
