@@ -20,7 +20,7 @@ public interface DriverRepository extends JpaRepository<Driver, Long> {
 				 + "LIMIT 10", nativeQuery = true)
 	List<Driver> findTenNearestMatchingDrivers(Point pickUpLocation);
 	
-	@Query(value = "SELECT d.*,  \n"
+	@Query(value = "SELECT d.*  \n"
 			 + "FROM driver d \n"
 			 + "WHERE available = true AND ST_DWithin(d.current_location, :pickUpLocation, 10000) \n"
 			 + "ORDER BY d.ratings DESC \n"

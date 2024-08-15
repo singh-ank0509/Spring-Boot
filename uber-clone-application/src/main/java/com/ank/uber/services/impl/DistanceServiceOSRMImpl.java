@@ -22,16 +22,17 @@ public class DistanceServiceOSRMImpl implements DistanceService {
 	public Double calculateDistance(Point src, Point dest) {
 
 		try {
+			String uri = src.getX() + "," + src.getY() +";" + dest.getX() + "," + dest.getY();
 			OSRMResponseDto body = RestClient.builder()
 					  .baseUrl(OSRM_API_BASE_URL)
 					  .build()
 					  .get()
-					  .uri("{},{};{},{}"+src.getX(), src.getY(), dest.getX(), dest.getY())
+					  .uri(uri)
 					  .retrieve()
 					  .body(OSRMResponseDto.class);
 					
-			System.err.println(body);
-			return body.getRoutes().get(0).getDistance();
+//			System.err.println(body);
+			return body.getRoutes().get(0).getDistance() / 1000;
 		} catch(Exception e) {
 			throw new RuntimeException("Error getting OSRM data : " + e.getMessage());
 		}

@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.ank.uber.dtos.DriverDto;
 import com.ank.uber.dtos.RideDto;
+import com.ank.uber.entities.Driver;
 
 public interface DriverService {
 
@@ -20,4 +21,6 @@ public interface DriverService {
 	DriverDto getMyProfile();
 	
 	List<RideDto> getMyRides();
+	
+	Driver getCurrentDriver();
 }

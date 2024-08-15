@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.ank.uber.dtos.DriverDto;
 import com.ank.uber.dtos.RideDto;
@@ -38,11 +39,13 @@ public class RiderServiceImpl implements RiderService {
 	private final RiderRepository riderRepository;
 	
 	@Override
+	@Transactional
 	public RideRequestDto requestRide(RideRequestDto rideRequestDto) {
 
 		Rider currrentRider = getCurrrentRider();
 		RideRequest rideRequest = mapper.map(rideRequestDto, RideRequest.class);
 		rideRequest.setRideRequestStatus(RideRequestStatus.PENDING);
+		rideRequest.setRider(currrentRider);
 		
 		double fare = rideStrategyManager.rideFareCalculationStrategy().calculateFare(rideRequest);
 		rideRequest.setFare(fare);
@@ -50,14 +53,9 @@ public class RiderServiceImpl implements RiderService {
 		RideRequest savedRideRequest = rideRequestRepository.save(rideRequest);
 		
 		rideStrategyManager.driverMatchingStrategy(currrentRider.getRatings()).findMatchingDrivers(rideRequest);
-		
-		
-		
-		
-		
-		
+	
 		log.info(rideRequest.toString());
-		return null;
+		return mapper.map(savedRideRequest, RideRequestDto.class);
 	}
 
 	@Override
